@@ -1,0 +1,29 @@
+{
+  "name": "winjit-teams-token",
+  "version": "1.0.0",
+  "engines": {
+    "node": "12.11.1"
+  },
+  "description": "API for token App",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VishalWaman/winjit-teams-token.git"
+  },
+  "author": "Vishal Waman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VishalWaman/winjit-teams-token/issues"
+  },
+  "homepage": "https://github.com/VishalWaman/winjit-teams-token#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "twilio": "^3.42.2"
+  }
+}
