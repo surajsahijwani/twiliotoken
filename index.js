@@ -91,4 +91,4 @@ meetingRouter.post('/:roomName/lock', async (req, res) => {
 
 app.use("/meeting",meetingRouter)
 
-app.listen(8081, () => console.log('Token server running on 8081'));
+app.listen(process.env.PORT, () => console.log('Token server running on 8081'));
